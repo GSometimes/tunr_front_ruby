@@ -28,7 +28,7 @@ h5{
 }
 input{
   width: 90%;
-  background-image: linear-gradient(to bottom right, black, white);
+  background-image: linear-gradient(to bottom right, grey, white);
   border-radius: 5px;
   color: white;
   font-family: 'Share Tech Mono', monospace;
