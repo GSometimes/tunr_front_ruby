@@ -21,7 +21,9 @@ export const Fave = (props) => {
     return (
         <div> 
         <h2>FAVORITES</h2>
+        <div className="favoriteSong">
         {addedFaves}
+        </div>
         </div>
     )
 }

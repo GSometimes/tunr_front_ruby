@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
     return (
       <>
-      <div>
+      <div className="headSpace">
       <h1>TUNR.</h1>
-      <h6>FOR ALL YOUR PLAYLIST NEEDS</h6>
+      <h5>FOR ALL YOUR PLAYLIST NEEDS</h5>
       </div>
       <hr/>
       </>

@@ -22,28 +22,28 @@ const Form = (props) => {
 	return (
         <div>
 		<form class='songForm' onSubmit={handleSubmit}>
-            <input
-				id='name'
+			<input
+				className='inputField'
 				type='text'
 				name='name'
 				value={formData.name}
     			onChange={handleChange}
                 /><br/>
 			<input
-				id='artist'
+				className='inputField'
 				type='text'
 				name='artist'
 				value={formData.artist}
 				onChange={handleChange}
                 /><br/>
 			<input
-				id='length'
+				className='inputField'
 				type='text'
 				name='length'
 				value={formData.length}
 				onChange={handleChange}
                 /><br/>
-			<input type='submit' value={props.label} />
+			<input className='submitButton' type='submit' value={props.label} />
 		</form>
     </div>
 	);

@@ -1,7 +1,38 @@
 button {
     background-color: black;
     border: none;
+    border-radius: 5px;
     color: white;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 2px;
+    background-image: linear-gradient(to bottom right,black, white);
+
   }
+
+h5{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.playlistContainer{
+  display:flex;
+  justify-content: space-between;
+}
+
+/* .inputField{
+  width: 90%;
+} */
+.submitButton{
+  width: 91.7%;
+  color: white;
+}
+input{
+  width: 90%;
+  background-image: linear-gradient(to bottom right, black, white);
+
+}
+
+.songForm{
+  text-align: center;
+  
+}

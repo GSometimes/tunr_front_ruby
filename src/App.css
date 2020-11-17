@@ -1,4 +1,22 @@
-.App{
-    padding-left: 10px;
+body{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 
+    0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.App{
+    padding: 10px;
+    background-color: grey; 
+    background-image: linear-gradient(to bottom right, black, white);
+    border-radius: 10px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}

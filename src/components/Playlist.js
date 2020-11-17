@@ -5,10 +5,11 @@ const Playlist = (props) => {
 		const JSX = props.songs.map((song) => {
 			const favSongJSX = song.fav ? <span color='red'>Fav</span> : <></>;
 			return (
-				<article>
-					<p>
+				<div className="playlistContainer">
+					<div className="songContainer">
 						{song.name} , {song.artist}, {song.length}
-						&nbsp;&nbsp;
+					</div>
+					<div className="buttonContainer">
 						<button
 							onClick={() => {
 								props.deleteSong(song);
@@ -22,8 +23,8 @@ const Playlist = (props) => {
 							}}>
 							Favorite
 						</button>
-					</p>
-				</article>
+					</div>
+				</div>
 			);
 		});
 
