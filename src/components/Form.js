@@ -26,6 +26,7 @@ const Form = (props) => {
 				className='inputField'
 				type='text'
 				name='name'
+				placeholder="Song Name"
 				value={formData.name}
     			onChange={handleChange}
                 /><br/>
@@ -33,6 +34,7 @@ const Form = (props) => {
 				className='inputField'
 				type='text'
 				name='artist'
+				placeholder="Artist"
 				value={formData.artist}
 				onChange={handleChange}
                 /><br/>
@@ -40,6 +42,7 @@ const Form = (props) => {
 				className='inputField'
 				type='text'
 				name='length'
+				placeholder="Song Length"
 				value={formData.length}
 				onChange={handleChange}
                 /><br/>

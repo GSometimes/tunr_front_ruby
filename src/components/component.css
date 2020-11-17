@@ -7,6 +7,7 @@ button {
     margin: 2px 2px;
     background-image: linear-gradient(to bottom right,black, white);
     font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
   }
 
 h5{
@@ -23,13 +24,19 @@ h5{
   width: 91.7%;
   color: white;
   font-family: 'Share Tech Mono', monospace;
+  cursor: pointer;
 }
 input{
   width: 90%;
   background-image: linear-gradient(to bottom right, black, white);
   border-radius: 5px;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
 }
-
+::placeholder {
+  color: #6D1A36;
+  text-align: center;
+}
 .songForm{
   text-align: center;
   
