@@ -13,7 +13,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
 
-  const url = "http://localhost:3000/songs/"
+  const url = "https://tunr-backend-ruby.herokuapp.com/songs"
 
 	const emptySong = {
 		name: '',
