@@ -15,10 +15,9 @@ h5{
 }
 
 .playlistContainer{
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
-
 
 .submitButton{
   width: 91.7%;
@@ -28,7 +27,7 @@ h5{
 input{
   width: 90%;
   background-image: linear-gradient(to bottom right, black, white);
-
+  border-radius: 5px;
 }
 
 .songForm{

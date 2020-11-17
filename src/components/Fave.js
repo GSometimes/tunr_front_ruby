@@ -9,9 +9,7 @@ export const Fave = (props) => {
             return (
                 <>
                     <div className ="favContainer"key={index}>
-                        <p className='title'>{favorites.name}</p>
-                        <p className='artist'>{favorites.artist}</p>
-                        <p className='time'>{favorites.length}</p>
+                        <p>{favorites.name}, {favorites.artist}, {favorites.length}</p>
                     </div>
                 </>
             )

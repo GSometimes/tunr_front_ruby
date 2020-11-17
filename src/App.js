@@ -70,33 +70,33 @@ function App() {
 		<Router>
 			<div className='App'>
 				<Header />
-        <h2>PLAYLIST 1</h2>
-				<h3>ADD A NEW SONG</h3>
-				<main>
-					<Switch>
-						<Route
-							exact
-							path='/'
-							render={(rp) => (
-								<div>
-									<Playlist
-										songs={songData}
-										deleteSong={deleteSong}
-                    selectSong={selectSong}
-                    onFavoriteToggle={handleToggleFavorite}
+					<h2>PLAYLIST 1</h2>
+						<h3>ADD A NEW SONG</h3>
+							<main>
+								<Switch>
+									<Route
+										exact
+										path='/'
+										render={(rp) => (
+											<div>
+												<Playlist
+													songs={songData}
+													deleteSong={deleteSong}
+													selectSong={selectSong}
+													onFavoriteToggle={handleToggleFavorite}
+												/>
+												<Fave favorites={favorites}/>
+												<Form
+													{...rp}
+													label='Add New Song'
+													song={emptySong}
+													handleSubmit={handleCreate}
+												/>
+											</div>
+										)}
 									/>
-                  <Fave favorites={favorites}/>
-									<Form
-										{...rp}
-										label='Add New Song'
-										song={emptySong}
-										handleSubmit={handleCreate}
-									/>
-								</div>
-							)}
-						/>
-					</Switch>
-				</main>
+								</Switch>
+							</main>
 			</div>
 		</Router>
 	);

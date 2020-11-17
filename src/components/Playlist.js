@@ -7,7 +7,7 @@ const Playlist = (props) => {
 			return (
 				<div className="playlistContainer">
 					<div className="songContainer">
-						{song.name} , {song.artist}, {song.length}
+						{song.name}, {song.artist}, {song.length}
 					</div>
 					<div className="buttonContainer">
 						<button

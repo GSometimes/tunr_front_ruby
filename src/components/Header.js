@@ -7,7 +7,7 @@ function Header() {
       <h1>TUNR.</h1>
       <h5>FOR ALL YOUR PLAYLIST NEEDS</h5>
       </div>
-      <hr/>
+      <hr color="#6D1A36" />
       </>
     );
   }
