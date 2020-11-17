@@ -6,7 +6,7 @@ button {
     font-size: 16px;
     margin: 2px 2px;
     background-image: linear-gradient(to bottom right,black, white);
-
+    font-family: 'Share Tech Mono', monospace;
   }
 
 h5{
@@ -19,12 +19,11 @@ h5{
   justify-content: space-between;
 }
 
-/* .inputField{
-  width: 90%;
-} */
+
 .submitButton{
   width: 91.7%;
   color: white;
+  font-family: 'Share Tech Mono', monospace;
 }
 input{
   width: 90%;

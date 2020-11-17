@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 body{
     border: 5px solid black;
     border-radius: 15px;
@@ -15,6 +16,7 @@ body{
     background-image: linear-gradient(to bottom right, black, white);
     border-radius: 10px;
     color: white;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 h2{
